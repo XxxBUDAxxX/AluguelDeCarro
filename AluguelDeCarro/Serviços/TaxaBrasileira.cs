@@ -1,8 +1,8 @@
 ﻿namespace AluguelDeCarro.Serviços
 {
-    class TaxaBrasileira
+    class TaxaBrasileira : ITaxasSeviços
     {
-        public double Imposto(double valor)
+        public double taxa (double valor)
         {
             if (valor <= 100.00)
             {
